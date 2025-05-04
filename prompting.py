@@ -11,3 +11,4 @@ prompt = ChatPromptTemplate(input_variables=['context', 'question'],
                                     prompt=PromptTemplate(input_variables=['context', 'question'],
                                                           template=template_text)
                                 )])
+prompt_rag_agent = PromptTemplate.from_template(template_text)
